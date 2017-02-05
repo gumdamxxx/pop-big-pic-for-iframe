@@ -1,0 +1,55 @@
+.jsPopBigPic {
+    cursor: pointer;
+}
+.pop-big-bg {
+    z-index: 2147483584;
+}
+.pop-big-div {
+    z-index: 2147483584;
+}
+.pop-big-div .close-image {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    background-color: #626262;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+    top: 0;
+    right:0;
+}
+.pop-big-div .close-image:hover {
+    background-color: #49a6c9;
+}
+.pop-big-div .left-image {
+    left: 0;
+    width: 40%;
+    height: 100%;
+    cursor: url(./images/leftArr.png),auto;
+}
+.pop-big-div .right-image {
+    right: 0;
+    width: 40%;
+    height: 100%;
+    cursor: url(./images/rightArr.png),auto;
+}
+.pop-big-div .pop-big-area,.pop-big-div .pop-small-area {.
+top: 0; left: 0; bottom: 0; right: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.pop-big-div .pop-image, .pop-big-div .pop-small-image {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+.pop-big-div .pop-small-image {
+    z-index: -1;
+}
